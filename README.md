@@ -35,3 +35,26 @@
  - *HoldRangeOrMeleeWeapon*
  
  
+<font size="+20"> **Gun System**</font>
+ - *PlayerInput*
+ - *NPCInput*
+ - *ReloadRequest*
+ - *GunReset*
+ - *BurstModeToggle*
+ - *ChangeAmmoCount*
+ - *DynamicCrosshairSetup*
+ - *ApplyDamge*
+ - *ShotDefault*
+ - *ShotEnemy*
+ - *ChangeAmooCountUI*
+ 
+ 
+ <font size="+20"> **Destructible-Items**</font>
+ - *DeductHealth*
+ - *DestroyMe*
+ - *EventHealthLow*
+ - *TakeDamage*
+ - *Expolde*
+ - *LowHealthEffect*
+ - *DestructibleDegenerateToDie*
+ - *InventoryUpdate*
