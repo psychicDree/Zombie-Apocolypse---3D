@@ -1,8 +1,7 @@
 # Zombie-Apocolypse---3D
 
-> Game Mechanics
 
- **Game Mechanics**
+> **Game Mechanics**
 
 
 |     **GameManager**       |    **Player-World Interaction**   |   **Player-Item Instruction**  |
@@ -13,3 +12,4 @@
 | *GameOverEvent*           | *PlayerHealthUpdateEvent*         |                                |
 | *SavePreviousDataEvent*   | *PlayerMechanicsScriptEvent*      |                                |
 | *ItemInteractionEvent*    |                                   |                                |
+
