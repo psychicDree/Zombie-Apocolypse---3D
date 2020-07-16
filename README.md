@@ -2,6 +2,7 @@
 
 
 > **Game Mechanics**
+
 |     **GameManager**       |    **Player-World Interaction**   |   **Player-Item Instruction**  |
 | ------------------------  |  -------------------------------- |  ---------------------------   |
 | *MenuInteractionEvent*    | *InventoryChangeEvent*            | *ItemThrowAndPickEvent*        |
