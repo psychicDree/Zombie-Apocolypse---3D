@@ -1,7 +1,7 @@
 # Zombie-Apocolypse---3D
 
 
-> **Game Mechanics**
+<font size="+5"> > **Game Mechanics** </font>
 
 |     **GameManager**       |    **Player-World Interaction**   |   **Player-Item Instruction**  |
 | ------------------------  |  -------------------------------- |  ---------------------------   |
@@ -28,3 +28,10 @@
  - *TurnOffAnimator*
  - *TurnOffNavAgent*
  - *TurnOffStatePattern*
+ - *TakeDamageEvent*
+ - *RagdollActivation*
+ - *DropItem*
+ - *HeadLookToPlayer*
+ - *HoldRangeOrMeleeWeapon*
+ 
+ 
