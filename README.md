@@ -1,7 +1,7 @@
 # Zombie-Apocolypse---3D
 
 
-<font size="+5"> > **Game Mechanics** </font>
+<font size="+20"> **Game Mechanics** </font>
 
 |     **GameManager**       |    **Player-World Interaction**   |   **Player-Item Instruction**  |
 | ------------------------  |  -------------------------------- |  ---------------------------   |
@@ -12,7 +12,7 @@
 | *SavePreviousDataEvent*   | *PlayerMechanicsScriptEvent*      |                                |
 | *ItemInteractionEvent*    |                                   |                                |
 
-> **NPC_Mechanics**
+<font size="+20"> **NPC_Mechanics** </font>
 - *Patrol*
 - *Follow*
 - *Alert*
@@ -23,7 +23,7 @@
 - *MeleeAttack*
 - *RangeAttack*
 
- > **NPC-Player-Interaction**
+ <font-size=+20> **NPC-Player-Interaction**</font>
  - *ChangeHealth*
  - *TurnOffAnimator*
  - *TurnOffNavAgent*
