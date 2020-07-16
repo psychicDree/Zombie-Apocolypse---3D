@@ -2,8 +2,6 @@
 
 
 > **Game Mechanics**
-
-
 |     **GameManager**       |    **Player-World Interaction**   |   **Player-Item Instruction**  |
 | ------------------------  |  -------------------------------- |  ---------------------------   |
 | *MenuInteractionEvent*    | *InventoryChangeEvent*            | *ItemThrowAndPickEvent*        |
@@ -13,3 +11,19 @@
 | *SavePreviousDataEvent*   | *PlayerMechanicsScriptEvent*      |                                |
 | *ItemInteractionEvent*    |                                   |                                |
 
+> **NPC_Mechanics**
+- *Patrol*
+- *Follow*
+- *Alert*
+- *Pursue*
+- *Flee*
+- *Struck*
+- *InvestigateHarm*
+- *MeleeAttack*
+- *RangeAttack*
+
+ > **NPC-Player-Interaction**
+ - *ChangeHealth*
+ - *TurnOffAnimator*
+ - *TurnOffNavAgent*
+ - *TurnOffStatePattern*
