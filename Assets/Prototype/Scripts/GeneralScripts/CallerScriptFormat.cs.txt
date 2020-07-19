@@ -1,0 +1,42 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+
+namespace GM
+{
+    public class CallerClassName : MonoBehaviour
+    {
+
+        void OnEnable()
+        {
+
+        }
+
+        void OnDisable()
+        {
+
+        }
+
+        void Start()
+        {
+
+        }
+
+        void Update()
+        {
+
+        }
+
+        void SetInitialReferences()
+        {
+
+        }
+
+        void CallerFunctionName()
+        {
+
+        }
+    }
+
+}
