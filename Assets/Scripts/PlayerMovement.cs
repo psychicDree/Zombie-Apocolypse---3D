@@ -77,7 +77,7 @@ namespace EasySurvivalScripts
             Vector3 fwdMovement = characterController.isGrounded == true ? transform.forward * vInput : Vector3.zero;
             Vector3 rightMovement = characterController.isGrounded == true ? transform.right * hInput : Vector3.zero;
 
-            float _speed = Input.GetButton(RunInput) ? runSpeed : walkSpeed;
+            float _speed = bl_MovementJoystick.Instance.isRunning ? runSpeed : walkSpeed;
             characterController.SimpleMove(Vector3.ClampMagnitude(fwdMovement + rightMovement, 1f) * _speed);
 
             if (characterController.isGrounded)
@@ -146,13 +146,13 @@ namespace EasySurvivalScripts
                     break;
 
                 case PlayerStates.Walking:
-                    HorzAnimation = Mathf.Lerp(HorzAnimation, 1 * Input.GetAxis("Horizontal"), 5 * Time.deltaTime);
-                    VertAnimation = Mathf.Lerp(VertAnimation, 1 * Input.GetAxis("Vertical"), 5 * Time.deltaTime);
+                    HorzAnimation = Mathf.Lerp(HorzAnimation, 1 * bl_MovementJoystick.Instance.Horizontal, 5 * Time.deltaTime);
+                    VertAnimation = Mathf.Lerp(VertAnimation, 1 * bl_MovementJoystick.Instance.Vertical, 5 * Time.deltaTime);
                     break;
 
                 case PlayerStates.Running:
-                    HorzAnimation = Mathf.Lerp(HorzAnimation, 2 * Input.GetAxis("Horizontal"), 5 * Time.deltaTime);
-                    VertAnimation = Mathf.Lerp(VertAnimation, 2 * Input.GetAxis("Vertical"), 5 * Time.deltaTime);
+                    HorzAnimation = Mathf.Lerp(HorzAnimation, 2 * bl_MovementJoystick.Instance.Horizontal, 5 * Time.deltaTime);
+                    VertAnimation = Mathf.Lerp(VertAnimation, 2 * bl_MovementJoystick.Instance.Vertical, 5 * Time.deltaTime);
                     break;
 
                 case PlayerStates.Jumping:
